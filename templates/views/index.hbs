@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    a{
+        text-decoration: none; 
+        color: rgb(3, 1, 32);
+    }
+    body{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    button{
+        font-size: 2rem;
+        padding: 2px;
+        margin: 100px 10px;
+        background-color: cyan;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+</style>
+
+<body>
+{{>navbar}}
+<button><a href="/register">Click To Register A New Employee</a></button> 
+<button><a href="/login">Click To LOGIN</a></button> 
+<button><a href="/secret">Secret Page</a></button> 
+</body>
+</html>
